@@ -1,0 +1,27 @@
+@import "reset";
+@import "variables/global";
+@import "themes/normal";
+@import "themes/dark";
+
+body {
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+	// height: 100%;
+}
+
+.app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	padding: 50px;
+	background-color: var(--bg-color);
+	color: var(--primary-color);
+	font: var(--font-m);
+
+	min-height: 100vh;
+
+	transition: .3s;
+}
