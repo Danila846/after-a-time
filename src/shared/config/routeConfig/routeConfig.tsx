@@ -1,3 +1,4 @@
+import React from 'react'
 import { AboutPage } from "pages/AboutPage"
 import { ContactsPage } from "pages/ContactsPage"
 import { MainPage } from "pages/MainPage"
