@@ -5,8 +5,9 @@ import React, { FC } from 'react';
 
 
 export enum AppLinkTheme {
-	PRIMARY = 'primary',
-	INVERTED = 'inverted',
+	LINK_ONE = 'link-one',
+	LINK_TWO = 'link-two',
+	LINK_THREE = 'link-three',
 }
 
 interface AppLinkProps extends LinkProps {
@@ -19,7 +20,7 @@ export const AppLink: FC<AppLinkProps> = (props) => {
 		to,
 		className,
 		children,
-		theme = AppLinkTheme.PRIMARY,
+		theme = AppLinkTheme.LINK_ONE,
 		...otherProps
 	} = props
 

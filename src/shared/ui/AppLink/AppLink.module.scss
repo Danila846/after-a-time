@@ -1,12 +1,37 @@
 .AppLink {
-	color: var(--primary-color);
-	text-decoration: none;
+	// color: var(--primary-color);
+	// text-decoration: none;
 }
 
-.primary {
-	color: var(--primary-color);
+.link-one {
+	background-color: transparent;
+	color: var(--link-one);
+	text-decoration: underline;
+
+	&:hover,
+	&:focus {
+		color: var(--link-one-hover);
+	}
 }
 
-.inverted {
-	color: var(--inverted-primary-color);
+.link-two {
+	background-color: transparent;
+	color: var(--link-two);
+	text-decoration: underline;
+
+	&:hover,
+	&:focus {
+		color: var(--link-two-hover);
+	}
+}
+
+.link-three {
+	background-color: transparent;
+	color: var(--link-three);
+	text-decoration: underline;
+
+	&:hover,
+	&:focus {
+		color: var(--link-three-hover);
+	}
 }

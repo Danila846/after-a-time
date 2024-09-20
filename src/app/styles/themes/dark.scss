@@ -1,10 +1,23 @@
 .app.dark {
-	--bg-color: rgb(17, 17, 118);
-	--inverted-bg-color: rgb(247, 233, 143);
+	--bg-color: rgb(45, 47, 50);
+	--inverted-bg-color: rgb(230, 235, 240);
 
-	--primary-color: #d48e26;
-	--secondary-color: #eacd6d;
+	--primary-color: rgb(112, 130, 150);
+	--secondary-color: rgb(140, 157, 172);
 
-	--inverted-primary-color: #ff5900;
-	--inverted-secondary-color: #640f45;
+	--inverted-primary-color: rgb(200, 215, 230);
+	--inverted-secondary-color: rgb(220, 230, 240);
+
+	--primary-btn: rgb(125, 140, 155);
+	--primary-btn-hover: rgb(105, 120, 140);
+	--secondary-btn: rgb(140, 155, 170);
+	--secondary-btn-hover: rgb(120, 140, 160);
+	--light-btn: rgb(160, 170, 180);
+
+	--link-one: rgb(140, 155, 170);
+	--link-one-hover: rgb(120, 140, 160);
+	--link-two: rgb(160, 175, 190);
+	--link-two-hover: rgb(140, 160, 180);
+	--link-three: rgb(140, 155, 170);
+	--link-three-hover: rgb(120, 140, 160);
 }

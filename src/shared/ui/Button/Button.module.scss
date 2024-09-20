@@ -1,6 +1,10 @@
 .Button {
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 16px;
 	cursor: pointer;
-	background-color: red;
+	border: none;
+	transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
 }
 
 .clear {
@@ -9,4 +13,38 @@
 	border: none;
 	background: none;
 	outline: none;
+}
+
+.primary {
+	background-color: var(--primary-btn);
+	color: var(--bg-color);
+
+	&:hover,
+	&:focus {
+		background-color: var(--primary-btn-hover);
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+}
+
+.secondary {
+	background-color: var(--secondary-btn);
+	color: var(--inverted-bg-color);
+
+	&:hover,
+	&:focus {
+		background-color: var(--primary-btn-hover);
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+}
+
+.light {
+	background-color: var(--light-btn);
+	color: var(--inverted-bg-color);
+	border: 1px solid var(--secondary-color);
+
+	&:hover,
+	&:focus {
+		background-color: var(--bg-color);
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
 }
