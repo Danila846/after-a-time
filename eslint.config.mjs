@@ -27,7 +27,10 @@ export default [
 		},
 		globals: {
 			"__IS_DEV__": true,
-		}
+		},
+		plugins: [
+			"react-hooks"
+		]
 	},
 	{
 		files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"]

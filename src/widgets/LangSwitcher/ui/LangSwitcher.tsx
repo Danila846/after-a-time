@@ -6,9 +6,10 @@ import { Button, ThemeButton } from 'shared/ui/Button/Button';
 
 interface LangSwitcherProps {
 	className?: string;
+	short?: boolean
 }
 
-export const LangSwitcher = ({ className }: LangSwitcherProps) => {
+export const LangSwitcher = ({ className, short }: LangSwitcherProps) => {
 	const { t, i18n } = useTranslation();
 
 	const toggleLang = () => {
@@ -21,7 +22,7 @@ export const LangSwitcher = ({ className }: LangSwitcherProps) => {
 			theme={ThemeButton.SECONDARY}
 			onClick={toggleLang}
 		>
-			{t("Язык")}
+			{t(short ? "Короткий язык" : "Язык")}
 		</Button>
 	)
 }
